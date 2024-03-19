@@ -17,6 +17,8 @@ import PostInfo from './pages/DatosFrom/PostsInfo';//./pages/posts/PostsInfo
 
 import Reservas from '../src/routes/Reservas';//./routes/Reservas
 
+import  NotFoundPage from './routes/NotFoundPage';
+
 
 
 const App = () => {
@@ -35,6 +37,7 @@ const App = () => {
           <Route path="/perfil" element={<Perfil />} />
           <Route path="/contactUs" element={<ContactUs />} />
           <Route path="/dashboard" element={<Dashboard />} />
+          <Route path='*' element={<NotFoundPage/>} />
         </Routes>
       </Router>
     </AuthProvider>
