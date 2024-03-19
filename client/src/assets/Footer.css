@@ -187,6 +187,8 @@ font-weight: 400;
 @media screen and (min-width: 1025px) {
     .footer {
         padding-top: 50px; /* Ajusta el padding según sea necesario */
+        display: flex;
+        justify-content: center;
     }
 
     .footer-container {
@@ -196,12 +198,12 @@ font-weight: 400;
 
     .footer-column {
         flex: 1;
-        padding: 0 20px; /* Ajusta el padding según sea necesario */
+        padding: 0 0px; /* Ajusta el padding según sea necesario */
     }
 
     .footer-column h3 {
         font-size: 24px; /* Tamaño de fuente del título */
-        margin-bottom: 20px; /* Espaciado inferior del título */
+        margin-bottom: 0px; /* Espaciado inferior del título */
     }
 
     .footer-column ul {
@@ -211,7 +213,7 @@ font-weight: 400;
     }
 
     .footer-column ul li {
-        margin-bottom: 10px; /* Espaciado inferior entre elementos de la lista */
+        margin-bottom: 0px; /* Espaciado inferior entre elementos de la lista */
     }
 
     .footer-column ul li a {

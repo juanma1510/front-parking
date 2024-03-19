@@ -931,10 +931,10 @@ form {
   }
 }
 
-@media screen and (min-width: 1441px) {
+@media screen and (min-width: 1025px) {
     .principal {
         justify-content: space-around; /* Mantener la distribución espaciada */
-        padding: 24px 100px; /* Ajustar el padding según sea necesario */
+        padding-top: 20px; /* Ajustar el padding según sea necesario */
         height: 10vh; /* Mantener la altura del encabezado */
     }
 
